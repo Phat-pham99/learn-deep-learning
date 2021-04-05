@@ -12,11 +12,11 @@
 >* VAE có 4 thành phần chính: encoder, decoder, mu, sigma
 >* z = m + epsilon*sigma  (trong đó: sigma = exp(log_var /2)); kỳ vọng u = 0, phương sai = 1
 ```diff
-- VAE loss: em ko hiểu sao lại ra công thức dưới ạ
+- VAE loss: 
 ```
 ![Screenshot](img/p3.png)
 ```diff
-- kl divergence: ???
+- kl divergence: 
 ```
 ![Screenshot](img/p5.png)
 
