@@ -8,7 +8,7 @@
 >* ![Screenshot](img/p2.png)
 > ![Screenshot](img/p4.png)
 ```diff
-- VAE loss: 
+- VAE loss: ???
 ```
 ![Screenshot](img/p3.png)
 >* VAE có 4 thành phần chính: encoder, decoder, mu, sigma
