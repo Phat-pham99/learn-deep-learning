@@ -10,6 +10,7 @@
 >* Giả sử VAE là mô hình giống hình đồng hồ cát nằm ngang. Phần encoder là phần bên trái của đồng hồ đây là phần đầu vào, ta chọn một giá trị duy nhất để mô tả từng thuộc tính tiềm ẩn theo các thuật ngữ xác suất và biểu diễn nó dưới dạng một dải giá trị. Sau đó ta sẽ lựa chọn ngẫu nhiên một phân phối xác suất dạng tiềm ẩn để làm vecto đầu vào. Tiếp theo, phần giữa của đồng hồ ta gọi nó là z là một vecto ẩn đã được làm giảm các giá trị và nén để biểu diễn làm đầu vào decoder. Cuối cùng phần bên phải đồng hồ decoder, phần này ta sẽ dùng các tham số như u, sigma để tính hàm loss, phân kỳ và train model.
 ## Công thức
 >* VAE có 4 thành phần chính: encoder, decoder, mu, sigma
+>* z = m + epsilon*sigma  (trong đó: sigma = exp(log_var /2)); kỳ vọng u = 0, phương sai = 1
 ```diff
 - VAE loss: em ko hiểu sao lại ra công thức dưới ạ
 ```
