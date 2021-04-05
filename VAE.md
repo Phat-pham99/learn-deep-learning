@@ -4,4 +4,7 @@
 >* ![Screenshot](img/p1.png)
 ## Mục đích VAE
 >Đào tạo tổng quát hơn autoencode, tạo ra các mẫu rất giống với đầu vào
-<span style="color: green"> Some green text </span>
+## 
+```diff
+! text in yellow
+##
