@@ -14,6 +14,9 @@
 - VAE loss: em ko hiểu sao lại ra công thức dưới ạ
 ```
 ![Screenshot](img/p3.png)
-
+```diff
+- kl divergence: ???
+```
+![Screenshot](img/p5.png)
 
 
