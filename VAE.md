@@ -4,7 +4,7 @@
 >* ![Screenshot](img/p1.png)
 ## Mục đích VAE
 >Đào tạo tổng quát hơn autoencode, tạo ra các mẫu rất giống với đầu vào
-## 
-```diff
-! text in yellow
-##
+## Mô hình
+>* ![Screenshot](img/p2.png)
+
+
