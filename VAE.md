@@ -6,5 +6,12 @@
 >Đào tạo tổng quát hơn autoencode, tạo ra các mẫu rất giống với đầu vào
 ## Mô hình
 >* ![Screenshot](img/p2.png)
+> ![Screenshot](img/p4.png)
+```diff
+- VAE loss: 
+```
+![Screenshot](img/p3.png)
+>* VAE có 4 thành phần chính: encoder, decoder, mu, sigma
+
 
 
