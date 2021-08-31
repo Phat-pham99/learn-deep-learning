@@ -1,0 +1,24 @@
+@relation HoangThiHoa_637634_weather.arff
+
+@attribute Day {D1, D2, D3, D4, D5, D6, D7, D8, D9, D10, D11, D12, D13, D14}
+@attribute Outlook {Sunny, Overcast, Rain}
+@attribute Temperature {Hot, Mild, Cool}
+@attribute Humidity {Normal, High}
+@attribute Wind {Weak, Strong}
+@attribute PlayTenis {Yes, No}
+
+@data
+D1,Sunny,Hot,High,Weak,No
+D2,Sunny,Hot,High,Strong,No
+D3,Overcast,Hot,High,Weak,Yes
+D4,Rain,Mild,High,Weak,Yes
+D5,Rain,Cool,Normal,Weak,Yes
+D6,Rain,Cool,Normal,Strong,No
+D7,Overcast,Cool,Normal,Strong,Yes
+D8,Sunny,Mild,High,Weak,No
+D9,Sunny,Cool,Normal,Weak,Yes
+D10,Rain,Mild,Normal,Weak,Yes
+D11,Sunny,Mild,Normal,Strong,Yes
+D12,Overcast,Mild,High,Strong,Yes
+D13,Overcast,Hot,,Normal,Weak,Yes
+D14,Rain,Mild,High,Strong,No
